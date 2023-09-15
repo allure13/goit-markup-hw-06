@@ -1,3 +1,25 @@
+.solution-class .title {
+color: var(--WHITE, #FFF);
+text-align: center;
+font-family: Roboto, sans-serif;;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.1
+letter-spacing: 0.02em;
+text-transform: capitalize;
+max-width: 288px;
+max-height: 160px;
+}
+
+.solution-class {
+    background-color: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(./images/background-hero-mobile.jpg);
+}
+
 /* .solution-class .title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
