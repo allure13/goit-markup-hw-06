@@ -5,14 +5,35 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-ul {
-  margin: 0;
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
 }
+
 img {
   display: block;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /*BODY STYLES*/
@@ -23,7 +44,4 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-}
-ul {
-  list-style-type: none;
 }
