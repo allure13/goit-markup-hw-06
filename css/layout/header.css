@@ -200,7 +200,7 @@
     margin-left: auto;
   }
 
-  .address-link {
+  .address-header {
     color: var(--SLATE, #434455);
     font-size: 12px;
     font-weight: 400;

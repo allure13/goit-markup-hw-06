@@ -1,3 +1,5 @@
+/*=========================================== SOLUTION SECTION ===========================================*/
+
 .solution-class .title {
   color: var(--WHITE, #fff);
   text-align: center;
@@ -186,3 +188,372 @@
 }
 
 /*================================= DESKTOP =============================================*/
+/*=========================================== SOLUTION SECTION ===========================================*/
+
+/*=========================================== FEATURES SECTION ===========================================*/
+/*-------------------------------- MOBILE -------------------------*/
+.icon-container {
+  display: none;
+}
+
+.features-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 72px;
+}
+
+.features-class {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.features-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*-------------------------------- MOBILE -------------------------*/
+
+/*-------------------------------- TABLET -------------------------*/
+@media screen and (min-width: 768px) {
+  .features-menu {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .features-class {
+    align-items: flex-start;
+  }
+
+  .features-item {
+    width: calc((100% - 48px) / 2);
+  }
+}
+/*-------------------------------- TABLET -------------------------*/
+
+/*-------------------------------- DESKTOP -------------------------*/
+@media screen and (min-width: 1158px) {
+  .features-menu {
+    display: flex;
+    flex-flow: wrap;
+    gap: 24px;
+  }
+
+  .features-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .features-class {
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+
+  .features-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    background-color: #f4f4fd;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+  }
+}
+
+/*-------------------------------- DESKTOP -------------------------*/
+
+/*=========================================== FEATURES SECTION ===========================================*/
+
+/*=========================================== FEATURES SECTION ===========================================*/
+/*-------------------------------- MOBILE -------------------------*/
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-class {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.team-menu {
+  display: flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+.team-list-class {
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.worker-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.team-name-class {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-text-class {
+  color: var(--SLATE, #434455);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.social-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-icon-item {
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon-link:hover,
+.social-icon-link:focus {
+  background-color: #404bbf;
+}
+
+.social-icon {
+  fill: #f4f4fd;
+}
+/*-------------------------------- MOBILE -------------------------*/
+
+/*-------------------------------- TABLET -------------------------*/
+@media screen and (min-width: 768px) {
+  .team-menu {
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+}
+/*-------------------------------- TABLET -------------------------*/
+
+/*-------------------------------- DESKTOP -------------------------*/
+@media screen and (min-width: 1158px) {
+  .team-menu {
+    display: flex;
+    gap: 24px;
+  }
+
+  .team-class {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+  }
+  .team-list-class {
+    background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+  .team-name-class {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+}
+/*-------------------------------- DESKTOP -------------------------*/
+/*=========================================== FEATURES SECTION ===========================================*/
+
+/*=========================================== PORTFOLIO SECTION ===========================================*/
+/*-------------------------------- MOBILE -------------------------*/
+.portfolio-overlay {
+}
+
+.portfolio-overlay-text {
+  display: none;
+}
+
+.portfolio-class {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 48px;
+}
+
+.portfolio-menu {
+  display: flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.portfolio-item {
+  border: 1px solid var(--CLOUD, #f4f4fd);
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.apps-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.portfolio-apps {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*-------------------------------- MOBILE -------------------------*/
+
+/*-------------------------------- TABLET -------------------------*/
+/*-------------------------------- TABLET -------------------------*/
+
+/*-------------------------------- DESKTOP -------------------------*/
+/* .portfolio-class {
+  
+}
+.portfolio-apps {
+  
+}
+.portfolio-text {
+  
+}
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item:hover .portfolio-overlay-text {
+  transform: translateY(0%);
+}
+
+.portfolio-item:hover {
+  box-shadow: 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-menu {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.apps-container {
+
+}
+
+.portfolio-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-overlay-text {
+  position: absolute;
+  top: 0;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--CLOUD, #f4f4fd);
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-overlay-text:hover {
+  transform: translateY(0%);
+} */
+
+/*-------------------------------- DESKTOP -------------------------*/
+/*=========================================== PORTFOLIO SECTION ===========================================*/
