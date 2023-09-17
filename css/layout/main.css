@@ -391,6 +391,10 @@
     row-gap: 64px;
     column-gap: 24px;
   }
+
+  .features-class {
+    text-align: start;
+  }
 }
 /*-------------------------------- TABLET -------------------------*/
 
