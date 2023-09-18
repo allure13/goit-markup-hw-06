@@ -19,6 +19,10 @@
   display: none;
 }
 
+.address-link {
+  font-style: normal;
+}
+
 .link-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -265,6 +269,10 @@
   }
   .logo-header {
     color: #2e2f42;
+  }
+
+  .link-logo {
+    margin-right: 76px;
   }
 
   .nav-link {
