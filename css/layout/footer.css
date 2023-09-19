@@ -40,7 +40,7 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .footer-social-media {
@@ -105,7 +105,7 @@
 
   .footer-text {
     width: 264px;
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .input_footer {
