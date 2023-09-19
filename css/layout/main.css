@@ -24,10 +24,10 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/background-hero-mobile.jpg);
+    url(../../images/background-hero-mobile.jpg);
   background-repeat: no-repeat;
 
-  max-height: 432px;
+  /* max-height: 432px; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -41,7 +41,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("/images/background-hero-mobile@2x.jpg");
+      url("../../images/background-hero-mobile@2x.jpg");
   }
 }
 
@@ -89,7 +89,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("/images/background-hero-tablet.jpg");
+      url("../../images/background-hero-tablet.jpg");
   }
   .order-button {
     background-color: #4d5ae5;
@@ -120,7 +120,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url ("/images/background-hero-tablet@2x.jpg");
+      url ("../../images/background-hero-tablet@2x.jpg");
   }
 }
 
@@ -134,6 +134,10 @@
     padding-bottom: 120px;
   }
 
+  .solution-class {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
   .solution-class .title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -157,45 +161,44 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("/images/background-hero.jpg");
+      url("../../images/background-hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-}
 
-.order-button {
-  background-color: #4d5ae5;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
-  margin: 0 auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.order-button:hover,
-.order-button:focus {
-  background-color: #404bbf;
-}
+  .order-button {
+    background-color: #4d5ae5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .order-button:hover,
+  .order-button:focus {
+    background-color: #404bbf;
+  }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
-  screen and (min-resolution: 2dppx) and (min-width: 1158px),
-  screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
-  .solution-class {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url("/images/background-hero@2x.jpg");
+  @media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+    screen and (min-resolution: 2dppx) and (min-width: 1158px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+    .solution-class {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../../images/background-hero@2x.jpg");
+    }
   }
 }
-
 /*================================= DESKTOP =============================================*/
 /*=========================================== SOLUTION SECTION ===========================================*/
 

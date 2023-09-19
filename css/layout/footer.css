@@ -119,7 +119,8 @@
     padding-bottom: 100px;
   }
 
-  .logo-footer {
+  .link {
+    justify-content: flex-start;
   }
 
   .footer-full-container {
