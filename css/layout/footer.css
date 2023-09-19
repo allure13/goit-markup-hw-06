@@ -109,6 +109,10 @@
   .input_footer {
     margin-right: 24px;
   }
+
+  .link {
+    justify-content: flex-start;
+  }
 }
 
 /*-------------------------------- TABLET -------------------------*/
